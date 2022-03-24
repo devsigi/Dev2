@@ -32,16 +32,6 @@
     <finalName>dev3</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
-<plugin>
-    <groupId>org.apache.tomcat.maven</groupId>
-    <artifactId>tomcat7-maven-plugin</artifactId>
-    <version>2.2</version>
-    <configuration>
-        <url>http://3.91.214.125:8080/manager/text</url>
-        <server>TomcatServer</server>
-        <path>/dev3</path>
-    </configuration>
-</plugin>
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.1.0</version>
